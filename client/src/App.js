@@ -5,7 +5,7 @@ import DisplayData from './fragments/DisplayData';
 function App() {
   const client = new ApolloClient({
     cache: new InMemoryCache(),
-    uri: 'http://React-graphql-tutorial-env.eba-hmyrmqwq.ap-southeast-1.elasticbeanstalk.com/graphql'
+    uri: 'https://ba37b5nn6k.execute-api.ap-southeast-1.amazonaws.com/prod/graphql'
     // uri: 'http://localhost:4000/graphql'
   });
 
