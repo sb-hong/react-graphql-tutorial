@@ -3,7 +3,7 @@ const _find = require("lodash/find");
 const _includes = require("lodash/includes");
 const _filter = require("lodash/filter");
 const _remove = require("lodash/remove");
-const _lowercase = require("lodash/lowercase");
+const _lowercase = require("lodash/lowerCase");
 const _toLower = require("lodash/toLower");
 
 const resolvers = {
